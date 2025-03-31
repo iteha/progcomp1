@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    text-align: center;
+}
+header{
+    background: #28a745;
+    color: white;
+    padding: 15px 0; /*espaçamento interno de 15 px a cima e abaixo, 0px esqueda e direita*/
+    font-size: 14px;
+    border: 2px solid black
+
+}
+
+nav {
+    background-color: #007bff;
+    padding: 10px;
+    display: flex; /*flex boxing*/
+    justify-content: space-between; /*alinhamento na horizonta - espaço entre o links*/
+    align-items: center; /*alinhamento na vertical*/
+
+}
+#links-menu {
+    display: flex;
+    gap: 15px;
+
+}
+/*configura o estilo das ancoas que estao dentro do nav*/
+nav a {
+    color: white; /*txt branco*/
+    text-decoration: none; /*nao faz decoração no link*/
+    padding: 10px 15px; /*10 cima e baixo 15 esquerda e direta*/
+    font-size: 18px;
+    background: #005663;
+    border-radius: 5px;
+
+
+}
+nav a:hover {
+    background: #003d82;
+}
+
+img {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;/*espaçamento externo*/
+    border-radius: 10px;
+
+}
+.container{
+    width: 80%;
+    margin: 20px auto; /*20px em cima e em baixo e automatico a esquerda e a direita*/
+    background: rgba(182, 182, 182, 0.5);
+    padding: 20px; /*espaçamento interno*/
+    border-radius: 10px;
+    text-align: justify;
+
+}
+h2{
+    text-align: center;
+}
+
+table tr td{
+    padding: 20px;
+}
+
+table {
+    margin: 0 auto; /*espaçamento externo de 0 aima abaixo e automatica a esquerda e direita*/
+    border: solid black;
+}
+
+.laranja {
+    background-color:rgb(233, 165, 40);
+}
+.azul {
+    background-color:rgb(21, 21, 129);
+    color:white;
+}
+.preta {
+    background-color: black;
+    color: white;
+}
+.roxo {
+    background-color: purple;
+}
+.verde {
+    background-color: green;
+}
+.vermelha {
+    background-color: red;
+}
+.embreve {
+    color: red
+}
+.campos {
+    margin: 20px;
+}
