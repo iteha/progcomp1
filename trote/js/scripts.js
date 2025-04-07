@@ -89,7 +89,7 @@ function calcular(){
         }
 
     }
-    else if (equipe == "Vermelha"){
+    else {
         
         if (kit >= 93 && suplemento >= 47){
             pontoskit = 5000 + (((kit - 93 )*30) + ((suplemento - 47)*15))
@@ -146,7 +146,7 @@ function calcular(){
             pontossangue = sangue * 20
         }
     }
-    else if (equipe == "Vermelha") {
+    else  {
         if (sangue >= 47){
             pontossangue = 2500 + ((sangue - 47) * 20)
         }

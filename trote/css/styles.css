@@ -97,3 +97,12 @@ table {
 .campos {
     margin: 20px;
 }
+.border {
+    border: solid black;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+.txt {
+    text-align: center;
+}
