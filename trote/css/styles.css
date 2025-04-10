@@ -83,7 +83,7 @@ table {
     color: white;
 }
 .roxo {
-    background-color: purple;
+    background-color: rgb(179, 10, 179);
 }
 .verde {
     background-color: green;
@@ -101,8 +101,22 @@ table {
     border: solid black;
     margin: 0 auto;
     padding: 20px;
+    background-color: #90b2d4;
     
 }
 .txt {
     text-align: center;
+    justify-items: center;
 }
+.txt2{
+    text-align: center;
+    font-size: 16px;
+}
+.header{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
